@@ -1,15 +1,15 @@
 {
-  "name":             "@noxy/react-authorization",
+  "name":             "@noxy/react-loader",
   "author":           "oscelest",
   "version":          "0.0.0",
-  "description":      "A component and hook to use with react functional components.",
+  "description":      "A component to show a loader while content is loading.",
   "license":          "MIT",
   "repository":       {
     "type": "git",
-    "url":  "git@github.com:oscelest/react-dialog.git"
+    "url":  "git@github.com:oscelest/react-loader.git"
   },
   "bugs":             {
-    "url": "https://github.com/oscelest/react-dialog/issues"
+    "url": "https://github.com/oscelest/react-loader/issues"
   },
   "publishConfig":    {
     "access": "public"
