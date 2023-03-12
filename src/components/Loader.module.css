@@ -1,0 +1,25 @@
+.Component {
+  display:         flex;
+  flex:            1 1 auto;
+  flex-flow:       column;
+  align-items:     center;
+  justify-content: center;
+  width:           100%;
+  height:          100%;
+}
+
+.Component :global(.graphic) {
+  width:        150px;
+  height:       150px;
+  fill:         none;
+  stroke:       #666666;
+  stroke-width: 2;
+}
+
+.Component :global(.graphic circle) {
+  stroke-Opacity: .5;
+}
+
+.Component :global(.graphic g) {
+  transform-origin: 50% 50%;
+}

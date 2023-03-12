@@ -1,0 +1,16 @@
+.Component {
+  display:         flex;
+  flex:            1 1 auto;
+  flex-flow:       column;
+  align-items:     center;
+  justify-content: center;
+}
+
+.Loader {
+  width:  800px;
+  height: 600px;
+}
+
+.Button {
+
+}
