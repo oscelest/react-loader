@@ -1,7 +1,7 @@
 {
   "name": "@noxy/react-loader",
   "author": "oscelest",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A component to show a loader while content is loading.",
   "license": "MIT",
   "repository": {
