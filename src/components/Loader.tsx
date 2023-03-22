@@ -5,7 +5,7 @@ import Style from "./Loader.module.css";
 export function Loader(props: LoaderProps) {
   const {loading, graphic, content, className, children, ...component_method_props} = props;
   const {...component_props} = component_method_props;
-  if (loading !== false) return children as JSX.Element;
+  if (loading !== true) return children as JSX.Element;
   
   const classes = sanitizeClassName(Style.Component, "loader");
   

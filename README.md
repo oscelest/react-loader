@@ -51,4 +51,4 @@ This includes the className property for those using CSS modules.
 
 Determines if the loader should be shown.
 
-**Default value**: `true`
+**Default value**: `false`
